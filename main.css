@@ -1,7 +1,8 @@
 body{ 
- background-color: #DA938F;
- margin: 0;
+ margin: 0 auto;
  font-size: 16px;
+ width:750px;
+ background-color: #DA938F;
 }
 
 #topbar{
@@ -14,50 +15,29 @@ body{
  font-family: 'Source Sans Pro', sans-serif;
  font-weight:bold;
  font-style:italic;
- font-size:130%;
- vertical-align:middle;
- text-align:center;
+ font-size:180%;
 }
 
 #empty{
- width: 100%;
- height: 15%;
-}
-
-#center{
- width: 100%;
- height: 54.2%;
-}
-
-#bottom{
- width: 100%;
- height: 24.3%;
+ height: 5%;
 }
 
 #artcontainer{
  margin: 0 auto;
  height:100%;
- width: 50%;
+ width: 600px;
  vertical-align:middle;
  text-align:middle;
 }
 
 #art1{
- height: 100%;
- width: 45%;
- float:left;
+ height: 55%;
+ width: 100%;
 }
 
 #art2{
- height: 100%;
- width: 45%;
- float:left;
-}
-
-#centerbreak{
- height:100%;
- width:10%;
- float:left;
+ height: 55%;
+ width: 100%;
 }
 
 #toggle{
@@ -70,21 +50,22 @@ body{
  background: black;
  color: white;
  transition: all 600ms ease-out;
- width:22.5%;
+ width:600px;
 }
 
 #dropdown.active{
- bottom: 22%;
+ bottom: 2%;
  background-color: #ffffff;
- min-width: 22.5%;
+ min-width: 600px;
  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
  z-index: 1;
  font-family: 'Source Sans Pro', sans-serif;
  font-weight:bold;
  font-style:italic;
- font-size:143%;
+ font-size:150%;
  vertical-align:middle;
  text-align:center;
+ position:fixed;
 }
 
 #dropdown a {
@@ -94,7 +75,7 @@ body{
  font-family: 'Source Sans Pro', sans-serif;
  font-weight:bold;
  font-style:italic;
- font-size:100%;
+ font-size:150%;
  vertical-align:middle;
  text-align:center;
 }
@@ -109,19 +90,19 @@ body{
  background: black;
  color: white;
  transition: all 600ms ease-out;
- width:22.5%;
+ width:600px;
 }
 
 #dropdown2.active{
- bottom: 22%;
+ bottom: 40%;
  background-color: #ffffff;
- min-width: 22.5%;
+ min-width: 600px;
  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
  z-index: 1;
  font-family: 'Source Sans Pro', sans-serif;
  font-weight:bold;
  font-style:italic;
- font-size:143%;
+ font-size:150%;
  vertical-align:middle;
  text-align:center;
 }
@@ -133,7 +114,7 @@ body{
  font-family: 'Source Sans Pro', sans-serif;
  font-weight:bold;
  font-style:italic;
- font-size:100%;
+ font-size:150%;
  vertical-align:middle;
  text-align:center;
 }
@@ -144,5 +125,5 @@ body{
 }
 
 #link {
- color: #333;
+ color: #333333;
 }
