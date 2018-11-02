@@ -18,7 +18,7 @@ body:before {
  -moz-background-size: cover;
  -o-background-size: cover;
  background-size: cover;
- background-attachment:fixed;
+ transform: translate3d(0,0,0);
 }
 
 content {
@@ -55,12 +55,12 @@ content {
 }
 
 #art1{
- height: 77%;
+ height: 70%;
  width: 100%;
 }
 
 #art2{
- height: 77%;
+ height: 70%;
  width: 100%;
 }
 
