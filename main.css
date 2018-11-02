@@ -1,3 +1,7 @@
+html{
+ min-height: 100vh;
+}
+
 body{ 
  margin: 0 auto;
  font-size: 16px;
@@ -42,7 +46,7 @@ content {
 }
 
 #empty{
- height: 15%;
+ height: 5%;
 }
 
 #artcontainer{
@@ -54,12 +58,12 @@ content {
 }
 
 #art1{
- height: 80%;
+ height: 77%;
  width: 100%;
 }
 
 #art2{
- height: 80%;
+ height: 77%;
  width: 100%;
 }
 
@@ -77,7 +81,7 @@ content {
 }
 
 #dropdown.active{
- bottom: 45%;
+ bottom: 40%;
  background-color: #ffffff;
  min-width: 600px;
  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -117,7 +121,7 @@ content {
 }
 
 #dropdown2.active{
- bottom: 45%;
+ bottom: 40%;
  background-color: #ffffff;
  min-width: 600px;
  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
